@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 [module: SkipLocalsInit]
 
-[assembly: InternalsVisibleTo("ComputeSharp.D2D1.Uwp")]
+[assembly: ComVisible(false)]

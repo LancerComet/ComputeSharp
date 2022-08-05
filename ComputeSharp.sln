@@ -123,6 +123,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputeSharp.Tests.DeviceLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeSharp.Tests.GlobalStatements", "tests\ComputeSharp.Tests.GlobalStatements\ComputeSharp.Tests.GlobalStatements.csproj", "{669A414F-3B46-4B55-B587-061AF63C3067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeSharp.D2D1.Uwp", "src\ComputeSharp.D2D1.Uwp\ComputeSharp.D2D1.Uwp.csproj", "{3A1C1FFD-7941-4640-9113-F31468ACF86F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -355,6 +357,14 @@ Global
 		{669A414F-3B46-4B55-B587-061AF63C3067}.Release|ARM64.Build.0 = Release|Any CPU
 		{669A414F-3B46-4B55-B587-061AF63C3067}.Release|x64.ActiveCfg = Release|Any CPU
 		{669A414F-3B46-4B55-B587-061AF63C3067}.Release|x64.Build.0 = Release|Any CPU
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Debug|x64.ActiveCfg = Debug|x64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Debug|x64.Build.0 = Debug|x64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Release|ARM64.Build.0 = Release|ARM64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Release|x64.ActiveCfg = Release|x64
+		{3A1C1FFD-7941-4640-9113-F31468ACF86F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
