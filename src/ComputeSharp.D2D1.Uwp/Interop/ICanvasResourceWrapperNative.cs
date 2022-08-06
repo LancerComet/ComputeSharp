@@ -55,6 +55,6 @@ internal unsafe struct ICanvasResourceWrapperNative
     [return: NativeTypeName("HRESULT")]
     public HRESULT GetNativeResource([NativeTypeName("ICanvasDevice*")] void* device, float dpi, [NativeTypeName("REFIID")] Guid* iid, void** resource)
     {
-        return ((delegate* unmanaged[Stdcall]<ICanvasResourceWrapperNative*, void*, float, Guid*, void**, int>)(lpVtbl[2]))((ICanvasResourceWrapperNative*)Unsafe.AsPointer(ref this), device, dpi, iid, resource);
+        return ((delegate* unmanaged[Stdcall]<ICanvasResourceWrapperNative*, void*, float, Guid*, void**, int>)(lpVtbl[3]))((ICanvasResourceWrapperNative*)Unsafe.AsPointer(ref this), device, dpi, iid, resource);
     }
 }
