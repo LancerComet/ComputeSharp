@@ -25,5 +25,19 @@ namespace TerraFX.Interop.DirectX
         {
             return ((delegate* unmanaged[Stdcall]<ID2D1Effect*, uint, D2D1_PROPERTY_TYPE, byte*, uint, int>)(lpVtbl[9]))((ID2D1Effect*)Unsafe.AsPointer(ref this), index, type, data, dataSize);
         }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        [VtblIndex(14)]
+        public void SetInput([NativeTypeName("UINT32")] uint index, ID2D1Image* input, [NativeTypeName("BOOL")] int invalidate)
+        {
+            ((delegate* unmanaged[Stdcall]<ID2D1Effect*, uint, ID2D1Image*, int, void>)(lpVtbl[14]))((ID2D1Effect*)Unsafe.AsPointer(ref this), index, input, invalidate);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        [VtblIndex(18)]
+        public void GetOutput(ID2D1Image** outputImage)
+        {
+            ((delegate* unmanaged[Stdcall]<ID2D1Effect*, ID2D1Image**, void>)(lpVtbl[18]))((ID2D1Effect*)Unsafe.AsPointer(ref this), outputImage);
+        }
     }
 }
