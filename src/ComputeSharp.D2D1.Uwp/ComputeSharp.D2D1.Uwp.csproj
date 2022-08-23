@@ -22,7 +22,7 @@
   <PropertyGroup>
     <PackageId>ComputeSharp.D2D1.Uwp</PackageId>
     <Title>ComputeSharp.D2D1.Uwp</Title>
-    <Description>A UWP library with APIs to leverage D2D1 functionality with D2D1 pixel shaders powers by ComputeSharp</Description>
+    <Description>A UWP library with APIs to leverage D2D1 functionality with D2D1 pixel shaders powered by ComputeSharp.D2D1</Description>
     <PackageTags>$(PackageTags) uwp winui</PackageTags>
   </PropertyGroup>
 
